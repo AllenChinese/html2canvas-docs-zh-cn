@@ -22,6 +22,6 @@ git commit -m "deploy-$time"
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:allenchinese/zjiawei.git master:gh-pages
+git push -f git@github.com:allenchinese/html2canvas-docs-zh-cn.git master:gh-pages
 
 cd -
