@@ -9,6 +9,7 @@ title: 答疑
 ### Why aren't my images rendered?
 
 问：为什么我的图像没有被渲染？
+
 答：html2canvas 不会解决浏览器内置的内容政策限制。绘制当前页面源之外的图像时会污染它们所绘制的画布。如果画布受到污染，则无法再读取。因此，html2canvas 实现了一些方法来检查图像在应用之前会否会污染画布。如果已经将 `allowTaint` 选项设置为 `false`，则不会绘制图像。
 
 ### Why is the produced canvas empty or cuts off half way through?
@@ -55,9 +56,11 @@ The maximum size for a canvas element is 3 megapixels for devices with less than
 ### Why doesn't CSS property X render correctly or only partially?
 
 问： 为什么 CSS 属性 X 没有正确的呈现或仅部分呈现？
+
 答： 由于每个 CSS 属性都需要手动编码才能正确呈现，因此 html2canvas 永远不会有完整的 CSS 支持。该库试图在可能的范围内支持最常用的 CSS 属性。如果某些 CSS 属性缺失或不完整，并且您认为它应该是库的一部分，请为其创建测试用例并为其创建新 issue。
 
 ### How do I get html2canvas to work in a browser extension?
 
 问：如何让 html2canvas 在浏览器扩展中工作？
+
 答：您不应在浏览器扩展中使用 html2canvas。大多数浏览器都支持从扩展中的选项卡捕获屏幕截图。 Chrome 和 Firefox 的相关信息。
