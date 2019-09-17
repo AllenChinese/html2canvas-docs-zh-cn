@@ -74,7 +74,7 @@ title: 功能
 
 ### 不支持的 CSS 属性
 
-## 这些 CSS 属性当前版本还不支持
+这些 CSS 属性当前版本还不支持
 
 - background-blend-mode
 - border-image
