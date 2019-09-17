@@ -33,7 +33,8 @@ module.exports = {
       ['/docs/html2canvas-getStart.md', '入门'],
       ['/docs/html2canvas-configuration.md', '配置项'],
       ['/docs/html2canvas-features.md', '功能'],
-      ['/docs/html2canvas-proxy.md', '代理']
+      ['/docs/html2canvas-proxy.md', '代理'],
+      ['/docs/html2canvas-faq.md', '答疑']
     ]
   }
 }
