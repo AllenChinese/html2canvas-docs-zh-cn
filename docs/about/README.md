@@ -1,3 +1,0 @@
----
-pageClass: about-page-class
----

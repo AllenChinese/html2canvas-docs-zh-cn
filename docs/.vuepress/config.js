@@ -22,10 +22,6 @@ module.exports = {
       {
         text: '文档',
         link: '/docs/html2canvas-about.html'
-      },
-      {
-        text: '关于',
-        link: '/about/'
       }
     ],
     sidebar: [

@@ -1,44 +1,39 @@
-## zjiawei 新博客
+## 关于 html2canvas
 
-    记录程序生涯的点滴，分享技术实践。
+了解 html2canvas，它是如何工作的以及它的一些局限性。
 
-## 博客模板
+在你开始使用这个脚本以前，这里有些帮助你更好的了解脚本的好处及其的一些局限性。
 
- - vuepress
+### 介绍
 
-## 栏目
+html2canvas 是一个 HTML 渲染器。该脚本允许你直接在用户浏览器截取页面或部分网页的“屏幕截屏”，屏幕截图是基于 DOM，因此生成的图片并不一定 100% 一致，因为它没有制作实际的屏幕截图，而是根据页面上可用的信息构建屏幕截图。
 
- - 技术博客
-   - HTML
-     - [《字符实现中文的等宽对齐效果》](https://zjiawei.cn/blog/html/HTML%E2%80%94three-characters-achieve-chinese-alignment.html)
-   - CSS
-   - JavaScript
-     - [《JavaScript 数组和对象遍历》](https://zjiawei.cn/blog/javascript/JS-arrayAndObject.html)
-     - [《可用的移动端拖拽库 draggable.js》](https://zjiawei.cn/blog/javascript/JS-draggablejs.html)
-   - Nodejs
-   - miniapp
-   - 动画
-     - [《airbnb Lottie 动画库实践》](https://zjiawei.cn/blog/animation/a-lottie.html)
-   - Vue
-      - [《结合 UI 框架实现可配置 Vue 表单组件浅析》](https://zjiawei.cn/blog/vue/vue-configurable-form.html)
-      - [《vue-cli 仿网易云音乐 Demo,环境搭建到开发 Vue 全家桶练手项目》](https://zjiawei.cn/blog/vue/vue-cli2.0-demo.html)
-      - [《基于 Vue.js 的服务端渲染 (ssr) 通用应用框架 Nuxt.js》](https://zjiawei.cn/blog/vue/vue-nuxt-test.html)
-   - React
-   - 架构 & 解决方案
-      - [《前端页面「配置化」实践——前端组内部分享》](https://zjiawei.cn/blog/architecture/web-page-configuration.html)
-   - 动画
-   - 前端整理
-      - [《前端基础技能》](https://zjiawei.cn/blog/web-package/base-skill.html#%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD)
-   - 性能优化
-      - [《vue-cli 前端性能优化方案》](https://zjiawei.cn/blog/performance/p--vue-cli-f2e-performance.html)
-   - 计算机原理
-   - 算法
-   - python
-   - golang
-   - 管理
+### 它是如何工作的
 
- - 随想
- 
- ## 关于我
+该脚本通过读取 DOM 以及应用于元素的不同样式，将当前页面呈现为 canvas 图像。
 
-我是一名前端开发工程师，目前就职于丁香园，base杭州。从事企业应用，以及商业项目的开发。丁香园长期招优秀的人才，欢迎找我内推，邮箱 📮 ：zjiawei@dxy.cn。
+它不需要来自服务器的任何渲染，因为整个图像是在客户端上创建的。但是，由于它太依赖于浏览器，因此该库不适合在 nodejs 中使用。它也不会神奇地规避任何浏览器内容策略限制，因此呈现跨域内容将需要代理来将内容提供给相同的源。
+
+该脚本仍然处理非常实验状态，因此不建议在生产环境中使用它，也不建议使用它来构建应用程序，因为仍然会有重大更改。
+
+### 浏览器兼容性
+
+该库应该可以在以下浏览器上正常工作
+
+- Firefox 3.5+
+- Google Chrome
+- Opera 12+
+- IE9+
+- Edge
+- Safari 6+
+
+由于需要手动构建每一个 CSS 属性以支持，因此还有许多尚不支持的属性。
+
+### 在线阅读（GitHub 版）
+
+- [About]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-about.html')
+- [Getting started]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-getStart.html')
+- [Configuration]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-configuration.html')
+- [Features]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-features.html')
+- [Proxy]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-proxy.html')
+- [FAQ]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-faq.html')
