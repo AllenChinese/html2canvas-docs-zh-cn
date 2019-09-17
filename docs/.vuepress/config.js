@@ -28,6 +28,10 @@ module.exports = {
         link: '/about/'
       }
     ],
-    sidebar: [['/docs/html2canvas-about', '关于']]
+    sidebar: [
+      ['/docs/html2canvas-about', '关于'],
+      ['/docs/html2canvas-getStart.md', '入门'],
+      ['/docs/html2canvas-configuration.md', '配置项']
+    ]
   }
 }
