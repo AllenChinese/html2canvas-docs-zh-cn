@@ -31,9 +31,9 @@ html2canvas 是一个 HTML 渲染器。该脚本允许你直接在用户浏览�
 
 ### 在线阅读（GitHub 版）
 
-- [About]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-about.html')
-- [Getting started]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-getStart.html')
-- [Configuration]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-configuration.html')
-- [Features]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-features.html')
-- [Proxy]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-proxy.html')
-- [FAQ]('https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-faq.html')
+- [About](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-about.html)
+- [Getting started](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-getStart.html)
+- [Configuration](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-configuration.html)
+- [Features](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-features.html)
+- [Proxy](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-proxy.html)
+- [FAQ](https://allenchinese.github.io/html2canvas-docs-zh-cn/docs/html2canvas-faq.html)
