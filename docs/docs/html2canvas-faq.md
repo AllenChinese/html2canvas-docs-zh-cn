@@ -15,6 +15,7 @@ title: 答疑
 ### Why is the produced canvas empty or cuts off half way through?
 
 问：为什么生产的 canvas 是空的，或者中间切断？
+
 答：确保 canvas 元素大小没有超过浏览器对画布的限制，或者使用窗口配置选项根据 canvas 元素设置自定义窗口大小：
 
 ```js
