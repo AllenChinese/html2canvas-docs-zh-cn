@@ -1,4 +1,6 @@
-## 关于 html2canvas
+## html2canvas
+
+![图片](https://allenchinese.github.io/html2canvas-docs-zh-cn/html2canvas.jpg)
 
 了解 html2canvas，它是如何工作的以及它的一些局限性。
 
