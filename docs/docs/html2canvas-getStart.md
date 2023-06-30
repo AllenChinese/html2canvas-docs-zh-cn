@@ -26,6 +26,6 @@ import html2canvas from 'html2canvas'
 
 ```js
 html2canvas(document.body).then(function(canvas) {
-  document.body.appnedChild(canvas)
+  document.body.appendChild(canvas)
 })
 ```
